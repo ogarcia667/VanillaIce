@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :customers
+
   get 'news/index'
 
   get 'about/index'
